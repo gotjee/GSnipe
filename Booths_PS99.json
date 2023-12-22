@@ -1,4 +1,12 @@
-{"Booths":{"Selling":{"SellingList":[],"autoMultipliers":{"enableHC":true,"HCmulti":"3","enableSH":true,"SHmulti":"2","enableG":true,"Gmulti":"2.5","enableRB":true,"RBmulti":"6.5","enableDM":true,"DMmulti":"15"},"StartSellingPet":false},"Extra":{"MinimumPlayers":"20","BoothServerHopTime":"60","HopToMaxPing":"100","HopToMinFps":"10","BoothServerHop":true,"BoothServerHopTimeMax":"75","TeleportToBooth":true},"Sniping":{"WaitAfterTP":"0.20","AutoRapBuy":false,"MinimumGemsWarning":"50000","HopAfterHuge":true,"StartSnipingPet":true,"SnipingList":[{"Class":"Pet","IsHuge":true,"MaxUnitPrice":100000}, 
+{"Booths":{"Selling":{"SellingList":[
+{"Class":"Fruit","Id":"Pineapple","UnitPrice":10000,"MaxStackSize":10},
+{"Class":"Pet","Rarity":"Exclusive","UnitPrice":2000000,"MaxStackSize":1},
+{"Class":"Fruit","Id":"Apple","UnitPrice":10000,"MaxStackSize":10},
+{"Class":"Fruit","Id":"Banana","UnitPrice":10000,"MaxStackSize":10},
+{"Class":"Fruit","Id":"Rainbow","UnitPrice":20000,"MaxStackSize":10}
+],"autoMultipliers":{"enableHC":true,"HCmulti":"3","enableSH":true,"SHmulti":"2","enableG":true,"Gmulti":"2.5","enableRB":true,"RBmulti":"6.5","enableDM":true,"DMmulti":"15"},"StartSellingPet":false},"Extra":{"MinimumPlayers":"20","BoothServerHopTime":"60","HopToMaxPing":"100","HopToMinFps":"10","BoothServerHop":true,"BoothServerHopTimeMax":"75","TeleportToBooth":true},"Sniping":{"WaitAfterTP":"0.20","AutoRapBuy":false,"MinimumGemsWarning":"50000","HopAfterHuge":true,"StartSnipingPet":true,
+"SnipingList":[
+{"Class":"Pet","IsHuge":true,"MaxUnitPrice":100000}, 
 {"Class":"Pet","IsTitanic":true,"MaxUnitPrice":1000000},
 {"Class":"Pet","Rarity":["Exclusive"],"MaxUnitPrice":5000},
 {"Class":"Egg","Rarity":["Exclusive"],"MaxUnitPrice":100000},
